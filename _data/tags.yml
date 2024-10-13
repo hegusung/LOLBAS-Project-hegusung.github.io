@@ -2,8 +2,21 @@
 Download:
   INetCache: 'INetCache downloaders typically store files in a randomly-named folder under <code>%LOCALAPPDATA%\Microsoft\Windows\INetCache\IE</code>, having added <code>[1]</code> or a higher number between the file''s name and its extension.<br>If you downloaded a file named <code>XYZ.exe</code>, the full path of the downloaded file can be obtained by executing the following command:<br><code>cmd.exe /c "where /r %LOCALAPPDATA%\Microsoft\Windows\INetCache XYZ*"</code>'
 Execute:
+  Remote: This LOLBAS executes payloads from remote locations.
+  EXE: This LOLBAS executes Executables (EXEs).
   DLL: This LOLBAS executes Dynamic-Link Libraries (DLLs).
+  .NetDLL: This LOLBAS executes .Net Libraries (DLLs).
+  .NetEXE: This LOLBAS executes .Net Executables (EXEs).
+  .NetObjects: This LOLBAS executes .Net serialized objects. 
   WSH: This LOLBAS executes scripts in Windows Script Host (WSH) languages, such as VBScript and JScript.
+  Powershell: This LOLBAS executes scripts in Powershell.
+  CMD: This LOLBAS executes cmd.exe commands.
+  SCT: This LOLBAS executes scripts in SCT files.
+  INF: This LOLBAS executes scripts in INF files. INF files allows the execution of SCT payloads
+  CHM: This LOLBAS executes commands in CHM files.
+  Csharp: This LOLBAS compiles and executes C# files.
+  VB.Net: This LOLBAS compiles and executes VB.Net files.
+  ClickOnce: This LOLBAS executes a ClickOnce application
 Type:
   Compression: This LOLBAS involves (de)compression of one or more files.
 Application:
